@@ -24,6 +24,7 @@ import android.webkit.WebView;
 
 public class MainActivity extends AppCompatActivity {
 
+    // The URL Site we will load into the native app
     public final static String URL_SITE = "http://coolonweb.com";
 
     @Override
