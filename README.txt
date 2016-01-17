@@ -34,6 +34,11 @@ Pierre-Henry Soria
 contact {AT} hizup {D0T} net
 
 
+## Need a Professional Dating Site/App...?
+
+Feel free to say hello and asking a free quote at the email above or on my [Web Agency](http://hizup.uk).
+
+
 ## License
 
-[Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) or later; Check the LICENSE.txt file for more details.
+This App and Code is under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) or later; Check the LICENSE.txt file for more details.
