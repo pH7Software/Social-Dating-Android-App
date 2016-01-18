@@ -25,8 +25,11 @@ import android.webkit.WebView;
 
 public class MainActivity extends AppCompatActivity {
 
-    // The URL Site we will load into the native app
-    public final static String URL_SITE = "http://coolonweb.com";
+    // The domain we will load into the native app (e.g., mysite.com or www.mysite.com)
+    public final static String DOMAIN_SITE = "coolonweb.com";
+    // The protocol (e.g., http or https for site with SSL enabled)
+    private String protocol = "http";
+
 
     private WebView view;
 
@@ -38,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         WebView view = (WebView) this.findViewById(R.id.webView);
         view.getSettings().setJavaScriptEnabled(true);
         view.setWebViewClient(new MyBrowser());
-        view.loadUrl(URL_SITE);
+        view.loadUrl(protocol + "://" + DOMAIN_SITE);
     }
 
     /*
@@ -47,8 +50,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         if(view.canGoBack()) {
+            // If the back button is pressed
             view.goBack();
         } else {
+            // Or let Android handle it
             super.onBackPressed();
         }
     }

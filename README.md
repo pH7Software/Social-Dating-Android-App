@@ -18,7 +18,7 @@ The design of coolonWeb is responsive that means we can easily create native app
 
 You can also create a dating business for free with for example this **[Free Responsive Dating App Builder](http://ph7cms.com)**. 
 
-You will be able then when your site is live to edit this app and change only `public final static String URL_SITE = "http://coolonweb.com";` by the URL of your site like `public final static String URL_SITE = "http://my-ph7cms-dating-app.com/?mobapp=1";`
+You will be able then when your site is live to edit this app and change only `public final static String DOMAIN_SITE = "coolonweb.com";` by the domain of your site like `public final static String DOMAIN_SITE = "my-ph7cms-dating-app.com/?mobapp=1";`
 
 Note that the `?mobapp=1` is important for [pH7CMS](https://github.com/pH7Software/pH7-Social-Dating-CMS/blob/master/_protected/framework/Mobile/MobApp.class.php#L20). This will help your site to be even better than normally on native app!
 

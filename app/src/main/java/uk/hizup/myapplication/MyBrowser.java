@@ -30,7 +30,7 @@ public class MyBrowser extends WebViewClient {
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
 
         // Check the URL ends
-        if (Uri.parse(url).getHost().endsWith(MainActivity.URL_SITE)) {
+        if (Uri.parse(url).getHost().endsWith(MainActivity.DOMAIN_SITE)) {
             return false;
         }
 
