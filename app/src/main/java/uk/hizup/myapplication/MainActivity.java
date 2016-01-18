@@ -16,6 +16,7 @@
 
 package uk.hizup.myapplication;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
     // The URL Site we will load into the native app
     public final static String URL_SITE = "http://coolonweb.com";
 
+    private WebView view;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +39,18 @@ public class MainActivity extends AppCompatActivity {
         view.getSettings().setJavaScriptEnabled(true);
         view.setWebViewClient(new MyBrowser());
         view.loadUrl(URL_SITE);
+    }
+
+    /*
+     * Prevent the back button from closing the app.
+     */
+    @Override
+    public void onBackPressed() {
+        if(view.canGoBack()) {
+            view.goBack();
+        } else {
+            super.onBackPressed();
+        }
     }
 
     @Override
