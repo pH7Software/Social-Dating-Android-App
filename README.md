@@ -4,6 +4,9 @@
 #### Meet new Cool People from anywhere thanks the Dating Android App available for your Smartphone
 
 
+![coolonWeb Homepage - Example of the Dating Android App](_screenshots/coolonweb-homepage-dating-app-example.png)
+
+
 ## Overview
 
 This app is used for the [French Cool Dating Site](http://coolonweb.com). 
