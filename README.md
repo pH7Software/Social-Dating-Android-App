@@ -1,6 +1,6 @@
 # Social Dating Android App
 
-The pH7 Social Dating Android App allows you to use [pH7CMS](http://ph7cms.com) through an easy-going and intuitive Android app. Keep pH7CMS everywhere in your pocket and make as much modification as you can thanks the 100% open source code
+The pH7 Social Dating Android App allows you to use [pH7CMS](http://ph7builder.com) through an easy-going and intuitive Android app. Keep pH7CMS everywhere in your pocket and make as much modification as you can thanks the 100% open source code
 
 ## Overview
 
